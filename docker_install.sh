@@ -12,4 +12,4 @@ apt-get purge lxc-docker*
 
 apt-cache policy docker-engine
 
-apt-get -y install docker-engine
+apt-get -y --force-yes install docker-engine
